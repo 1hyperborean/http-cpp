@@ -1,0 +1,3 @@
+/Users/nikolozberoshvili/CLionProjects/webserver/build/CMakeFiles/webserver.dir
+/Users/nikolozberoshvili/CLionProjects/webserver/build/CMakeFiles/edit_cache.dir
+/Users/nikolozberoshvili/CLionProjects/webserver/build/CMakeFiles/rebuild_cache.dir
