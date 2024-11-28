@@ -55,12 +55,6 @@ build CMakeFiles/webserver.dir/main.cpp.o: CXX_COMPILER__webserver_unscanned_Deb
   OBJECT_DIR = CMakeFiles/webserver.dir
   OBJECT_FILE_DIR = CMakeFiles/webserver.dir
 
-build CMakeFiles/webserver.dir/Socket.cpp.o: CXX_COMPILER__webserver_unscanned_Debug /Users/nikolozberoshvili/CLionProjects/webserver/Socket.cpp || cmake_object_order_depends_target_webserver
-  DEP_FILE = CMakeFiles/webserver.dir/Socket.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/webserver.dir
-  OBJECT_FILE_DIR = CMakeFiles/webserver.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target webserver
@@ -69,7 +63,7 @@ build CMakeFiles/webserver.dir/Socket.cpp.o: CXX_COMPILER__webserver_unscanned_D
 #############################################
 # Link the executable webserver
 
-build webserver: CXX_EXECUTABLE_LINKER__webserver_Debug CMakeFiles/webserver.dir/main.cpp.o CMakeFiles/webserver.dir/Socket.cpp.o
+build webserver: CXX_EXECUTABLE_LINKER__webserver_Debug CMakeFiles/webserver.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   OBJECT_DIR = CMakeFiles/webserver.dir
   POST_BUILD = :

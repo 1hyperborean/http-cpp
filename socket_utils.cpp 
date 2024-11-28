@@ -1,0 +1,12 @@
+#include "socket_utils.h"
+#include <iostream>
+#include <unistd.h>
+
+int create_socket() {
+    int server_fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (server_fd == -1) {
+        std::cerr << "Failed to create socket.\n";
+        return -1;
+    }
+    return server_fd;
+}
